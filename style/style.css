@@ -1,5 +1,145 @@
+*
+{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
 .clearfix
 {
     clear: both;
 }
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+header p span
+{
+    color: #24baa0;
+}
+header
+{
+     text-transform: uppercase;
+     background-color: black;
+     width: 100%;
+    height: 40px;
+    font-size: 15px;
+    padding: 5px;
+}
+ header p
+ {
+     margin-top: 5px;
+     margin-left: 50px;
+     float: left;
+     color: white;
 
+ }
+a:link,a:visited
+{
+    margin-top: 5px;
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;
+    float: right;
+}
+.blackchair
+{
+    float: left;
+    width: 50%;
+}
+.loremButton
+{
+    float: left;
+    width: 30%;
+    margin-top: 80px;
+    height: 200px;
+    text-align: center;
+}
+.loremButton>h1
+{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+.sectionGrad
+{
+    border: 1px dotted red;
+    height: 500px;
+}
+h1 span
+{
+    color: #24baa0;
+}
+.loremParag
+{
+    font-size: 15px;
+}
+button
+{
+    margin-top: 50px;
+    width: 250px;
+    height: 70px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 1em 1em 1em 1em;
+    background-color: #24baa0;
+    color: white;
+}
+.imgbox
+{
+    float: left;
+    width: 32%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.comment
+{
+    float: left;
+    border: 1px solid lightgray;
+    text-align: center;
+    width: 32%;
+    height: 262px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.comment p
+{
+    margin-top: 20px;
+}
+
+.greybox
+{
+    margin-top: 70px;
+    width: 100%;
+    height: 400px;
+    background-color: lightgray;
+}
+
+.Bplan
+{
+    width: 25%;
+    height: 300px;
+    margin: 20px;
+    border: 2px solid gray;
+}
+.circleTop
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:gray;
+    border: 7px solid white;
+    box-shadow: 0 0 0 2px gray;
+}
+.circleMiddle
+{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+}
+.pplan1{}
+.pplan2{}
+.pbutton1{}
