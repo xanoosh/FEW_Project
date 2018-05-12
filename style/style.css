@@ -29,7 +29,7 @@ header
 }
  header p
  {
-     margin-top: 5px;
+     margin-top: 6px;
      margin-left: 50px;
      float: left;
      color: white;
@@ -37,7 +37,7 @@ header
  }
 a:link,a:visited
 {
-    margin-top: 5px;
+    margin-top: 6px;
     text-decoration: none;
     margin-right: 50px;
     color: white;
@@ -48,7 +48,7 @@ a:link,a:visited
     float: left;
     width: 50%;
 }
-.loremButton
+.loremParagraphAndButton
 {
     float: left;
     width: 30%;
@@ -61,6 +61,7 @@ a:link,a:visited
     font-size: 40px;
     text-transform: uppercase;
     margin-bottom: 50px;
+
 
 }
 .sectionGrad
@@ -83,7 +84,7 @@ h1 span
 {
     font-size: 15px;
 }
-button
+.mainButton
 {
     margin-top: 50px;
     width: 250px;
@@ -93,6 +94,7 @@ button
     border-radius: 1em 1em 1em 1em;
     background-color: #24baa0;
     color: white;
+    font-size: 25px;
 }
 .imgbox
 {
@@ -110,6 +112,7 @@ button
     height: 262px;
     margin-top: 20px;
     font-size: 14px;
+    padding: 10px;
 }
 .comment p
 {
@@ -193,5 +196,24 @@ button
     border-radius: 1em 1em 1em 1em;
     background-color: #24baa0;
     color: white;
-
 }
+
+/*still need to style other plan types...*/
+
+form input[type="text"],[type="email"]
+{}
+textarea
+{}
+footer
+{}
+.formDiv
+{}
+
+.redChair
+{}
+
+.social
+{}
+.social img
+{}
+
