@@ -35,13 +35,22 @@ header
      color: white;
 
  }
+ ul
+ {
+     list-style: none;
+ }
+ li
+ {
+     float: right;
+     margin-top: 6px;
+     margin-right: 50px;
+ }
+
 a:link,a:visited
 {
-    margin-top: 6px;
+
     text-decoration: none;
-    margin-right: 50px;
     color: white;
-    float: right;
 }
 .blackchair
 {
@@ -381,10 +390,11 @@ footer > p
 .social img
 {
    float: left;
+    margin-right: 5px;
 }
 .social img:first-child
 {
-    margin-left: 300px;
+    margin-left: 285px;
 }
 
 .social p
